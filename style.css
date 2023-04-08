@@ -1,0 +1,51 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #00000000;
+}
+
+h2 {
+  font-size: 6em;
+  font-weight: 500;
+  color: #222;
+  letter-spacing:  5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+h3 {
+  font-size: 6em;
+  font-weight: 250;
+  color: #b30000;
+  letter-spacing:  5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: transform .2s ease, opacity .2s ease
+}
+
+
+.name:hover{
+  color: #333;
+  text-shadow:  0 0 5px #03e9f4,
+  0 0 25px #03e9f4,
+  0 0  50px #03e9f4,
+  0 0 100px #03e9f4;
+  opacity: 1;
+}
+
+.name:hover h3{
+  opacity: 1;
+  color: #af0000;
+  text-shadow:  0 0 5px #ff0037,
+  0 0 25px #ff0037,
+  0 0  50px #ff0037,
+  0 0 100px #ff0037;
+}
+
+h3 {
+  opacity: 0;
+}
